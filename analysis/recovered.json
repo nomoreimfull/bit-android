@@ -1,0 +1,34 @@
+{
+  "sha256": "05e892dac55891e19f4741e4034a94e39d22b810bff7dae42c5e1107c48b9b45",
+  "resources": [
+    {
+      "id": 105,
+      "tag": 85,
+      "channels": 1,
+      "rate": 11025,
+      "bits": 0,
+      "fmt": "55000100112b0000c4090000010000000c00010002000000040102007105",
+      "bytes": 1720
+    },
+    {
+      "id": 106,
+      "tag": 85,
+      "channels": 1,
+      "rate": 11025,
+      "bits": 0,
+      "fmt": "55000100112b0000c4090000010000000c00010002000000040102007105",
+      "bytes": 3280
+    }
+  ],
+  "mesh_vertices": {
+    "1": 60,
+    "4": 360,
+    "2": 108,
+    "3": 24
+  },
+  "audio_metadata": {
+    "ICOP": "Walt Disney Pictures",
+    "INAM": "Tron",
+    "ISRC": "Go to ---> SciFlicks.com"
+  }
+}

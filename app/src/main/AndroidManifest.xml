@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="3" android:versionName="1.2">
+ <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="36"/>
+ <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+ <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+ <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE"/>
+ <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+ <uses-feature android:glEsVersion="0x00010000" android:required="true"/>
+ <application android:label="Bit" android:theme="@style/AppTheme" android:icon="@drawable/ic_bit" android:allowBackup="false" android:supportsRtl="true">
+  <activity android:name=".SettingsActivity" android:exported="true">
+   <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+  </activity>
+  <service android:name=".BitService" android:exported="false" android:foregroundServiceType="specialUse">
+   <property android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE" android:value="User-enabled draggable animated companion overlay, kept visible over ordinary apps until stopped"/>
+  </service>
+ </application>
+</manifest>

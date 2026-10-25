@@ -1,0 +1,14 @@
+{
+  "yes": {
+    "rate": 11025,
+    "channels": 1,
+    "samples": 13824,
+    "seconds": 1.253877551020408
+  },
+  "no": {
+    "rate": 11025,
+    "channels": 1,
+    "samples": 6912,
+    "seconds": 0.626938775510204
+  }
+}

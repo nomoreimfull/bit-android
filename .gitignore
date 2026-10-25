@@ -1,0 +1,14 @@
+build/
+app/build/
+.gradle/
+local.properties
+analysis/python/
+analysis/*.whl
+analysis/*.deb
+__pycache__/
+
+# Generated source bundles and build credentials
+dist/Bit-source.zip
+dist/Bit-source.zip.sha256
+*.keystore
+*.jks
