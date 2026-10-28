@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="app/src/main/res/drawable-nodpi/splash_logo.png" alt="BIT logo" width="360">
+</p>
+
 # Bit for Android
 
 A native Kotlin/OpenGL ES port of **Bit 1.0.0.2**, © 2005 Anders Hovmöller, SK Soft. Recovered geometry, animation constants, original PRNG and original audio; no web runtime, speech synthesis, network access, boot receiver or wake lock.
